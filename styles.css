@@ -56,6 +56,13 @@ footer {
     margin-bottom: 30px;
 }
 
+.result-display {
+    text-align: right;
+    color: rgb(42, 158, 42);
+    font-size: 50px;
+    margin: 10px 15px;
+}
+
 .buttons {
     width: 320px;
     display: flex;
@@ -83,4 +90,24 @@ footer {
 #equal {
     width: 150px;
     border-radius: 32.5px;
+}
+
+.btn-num, .btn-op {
+    transition: 0.5s;
+}
+
+.btn-num:hover {
+    background-color: rgb(56, 137, 137);
+    box-shadow: 2px 2px 4px rgb(37, 91, 91);
+}
+
+.btn-op:hover {
+    background-color: rgb(137, 80, 56);
+    box-shadow: 2px 2px 4px rgb(91, 55, 37);
+}
+
+img {
+    height: 80px;
+    width: 80px;
+    border-radius: 20px;
 }
