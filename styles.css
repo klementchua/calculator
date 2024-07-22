@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+
+body {
+    background-color: #f8eded;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Quicksand", sans-serif;
+    min-height: 100vh;
+}
+
+.calculator-body {
+    background-color: rgb(18, 18, 18);
+    border-radius: 20px;
+    width: 320px;
+    height: 550px;
+    padding: 15px 30px 30px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 3px 3px 10px #807878;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+footer {
+    background-color: #b43f3f;
+    min-width: 100vw;
+    font-size: 18px;
+    padding: 30px;
+    text-align: center;
+}
+
+.calculator-top {
+    background-color: #b43f3f;
+    border-radius: 4px 10px;
+    padding: 1px;
+    text-align: center;
+    width: 200px;
+    font-size: 15px;
+    box-shadow: inset 1px 1px 2px #521f1f;
+    margin-bottom: 15px;
+}
+
+.calculator-display {
+    background-color: rgb(78, 78, 78);
+    border-radius: 15px;
+    box-shadow: inset 3px 3px 6px #242424;
+    width: 320px;
+    height: 100px;
+    margin-bottom: 30px;
+}
+
+.buttons {
+    width: 320px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.btn-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    width: 65px;
+    border-radius: 50%;
+    background-color: rgb(124, 124, 124);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 20px;
+    box-shadow: 2px 2px 4px #5c5c5c;
+}
+
+#equal {
+    width: 150px;
+    border-radius: 32.5px;
+}
